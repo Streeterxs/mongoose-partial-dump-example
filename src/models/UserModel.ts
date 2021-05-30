@@ -20,6 +20,6 @@ export interface IUser extends Document {
   name: string;
 }
 
-const UserModel: Model<IUser> = mongoose.model('User', Schema);
+const UserModel: Model<IUser> = mongoose.model<IUser>('User', Schema);
 
 export default UserModel;
