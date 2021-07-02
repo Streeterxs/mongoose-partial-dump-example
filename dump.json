@@ -1,0 +1,42 @@
+{
+    "Dog": [
+        {
+            "_id": "60b40699c73c9095df00c22b",
+            "toys": [],
+            "name": "Blackie",
+            "__v": 0
+        }
+    ],
+    "DogOwner": [
+        {
+            "_id": "60b40699c73c9095df00c22d",
+            "dog": "60b40699c73c9095df00c22b",
+            "person": "60b40699c73c9095df00c22c",
+            "__v": 0
+        }
+    ],
+    "Person": [
+        {
+            "_id": "60b40699c73c9095df00c22c",
+            "name": "Charlinhos",
+            "__v": 0
+        }
+    ],
+    "PetShopClient": [
+        {
+            "_id": "60b40699c73c9095df00c22f",
+            "petShop": "60b40699c73c9095df00c22e",
+            "dogOwner": "60b40699c73c9095df00c22d",
+            "__v": 0
+        }
+    ],
+    "PetShop": [
+        {
+            "dogs": [
+                "60b40699c73c9095df00c22b"
+            ],
+            "_id": "60b40699c73c9095df00c22e",
+            "__v": 0
+        }
+    ]
+}
