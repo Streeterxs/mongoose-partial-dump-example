@@ -21,4 +21,12 @@ export default {
         PetShop,
         User,
     ],
+    anonymize: {
+        fields: [
+            {
+                field: 'name',
+                type: 'name',
+            }
+        ]
+    },
 };
