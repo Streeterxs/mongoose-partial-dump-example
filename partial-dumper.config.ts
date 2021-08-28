@@ -8,6 +8,8 @@ import User from './src/models/UserModel';
 
 import config from './src/config';
 
+import {AnonymizationType} from 'mongoose-partial-dumper'
+
 export default {
     db: {
         url: config.db_url
@@ -25,7 +27,7 @@ export default {
         fields: [
             {
                 field: 'name',
-                type: 'name',
+                type: AnonymizationType.name, // with AnonymizationType you can make sure that given anonymization type is correct
             }
         ]
     },
