@@ -23,7 +23,7 @@ export default {
         PetShop,
         User,
     ],
-    anonymize: {
+    anonymize: { // optional
         fields: [
             {
                 field: 'name',
